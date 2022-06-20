@@ -1,4 +1,4 @@
-# rust template repository
+# Rust Template
 
 ## Configure this template
 
@@ -8,8 +8,16 @@ Change the the project name by modifying the name key in [Cargo.toml](Cargo.toml
 # To enable client side git hooks
 git config core.hooksPath hooks/
 ```
+## GitHub Actions used in this template
 
-## Create new project from scratch
+- GitHub Checkout - [actions/checkout@v3](https://github.com/actions/checkout)
+- Rust Toolchain - [actions-rs/toolchain@v1](https://github.com/actions-rs/toolchain)
+- Cargo - [actions-rs/cargo@v1](https://github.com/actions-rs/cargo)
+- GitHub Release - [softprops/action-gh-release@v1]()
+
+For more Rust related GitHub Actions visit [actions-rs](https://github.com/actions-rs)
+
+## Replace with new project
 
 ```bash
 # Delete current default cargo project
