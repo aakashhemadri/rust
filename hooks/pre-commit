@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -eo pipefail
+
+echo "pre-commit hook: running 'cargo check'..."
+cargo check
+echo "pre-commit hook: running 'cargo test'..."
+cargo test
+echo "pre-commit hook: running 'cargo fmt'..."
+cargo fmt
