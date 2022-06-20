@@ -2,7 +2,7 @@
 
 ## Configure this template
 
-Change the the project name by modifying the name key in [Cargo.toml](Cargo.toml). Make sure you also modify the new name in the BINARY & RELEASE variables foung in [Continuous Delivery](.github/workflows/cd.yml).
+Change the the project name by modifying the name key in [Cargo.toml](Cargo.toml). Make sure you also modify the new name in the BINARY & RELEASE variables found in [cd.yml](.github/workflows/cd.yml).
 
 ```bash
 # To enable client side git hooks
