@@ -13,7 +13,7 @@ git config core.hooksPath hooks/
 - GitHub Checkout - [actions/checkout@v3](https://github.com/actions/checkout)
 - Rust Toolchain - [actions-rs/toolchain@v1](https://github.com/actions-rs/toolchain)
 - Cargo - [actions-rs/cargo@v1](https://github.com/actions-rs/cargo)
-- GitHub Release - [softprops/action-gh-release@v1]()
+- GitHub Release - [softprops/action-gh-release@v1](https://github.com/softprops/action-gh-release)
 
 For more Rust related GitHub Actions visit [actions-rs](https://github.com/actions-rs)
 
